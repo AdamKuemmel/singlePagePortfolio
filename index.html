@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>AKepicHomepage</title>
+  </head>
+  <body>
+    <header>
+      <h1> <img  src="./img/AKlogo_light.png"></h1>
+      <ul>
+         
+        <li><a href="#" class="active-btn">HOME</a></li>
+        <li><a href="#">WORK</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+    
+      </ul>
+        
+    </header>
+    <div id="parallax sticky" class="firstDivContainer">
+ <img src="./img/shortGif.gif" class="hands"> 
+      <h2 class="firstDivWords">Full-Stack skills with a simple and creative touch. </h2>
+      <h2 id="secondDivWords">Keep scrolling to see more</h2>
+    </div>
+    <div>
+    <div class="aboutContainer">
+
+      <h2 id="aboutH1" id>Adam Kuemmel</h2>
+      <h2 class="aboutWords">
+        Hello, my name is Adam and I am a full stack web developer born and
+        raised in New York. My love for web development all began in 2008 during
+        the punk-scene kid era, designing in depth HTML myspace layouts for all
+        of my hXc friends. This then migrated into a side-job designing websites
+        for local bands in my area using JOOMLA templates for extra cash.
+      </h2>
+      <h2 class="aboutWords">
+      Although I am fluent in JavaScript, HTML, CSS and various other coding
+        technical skills, i like to define my skill set as my ability to learn
+        and dedicate myself to things in which i do not understand. Fueled by an
+        unbelievable desire to succeed and develop things that stand out in a
+        world where everything may seem to be the same, i create things that are
+        simple yet entertaining and inspiring to the desired user base.
+      </h2>
+      <h2 class="aboutWords">
+    For more information about my technical skills and work experience,
+        please check out my resume linked below
+      </h2>
+    </div>
+    <img class ="aboutImg" src="./img/sampleResume.png" alt="resume">
+    </div>
+    <div>
+      <h2></h2>
+    </div>
+    <div>
+      <div>
+        <article>
+        <h1 class="contactTitle">Contact</h1>
+        <p class="contactWords">If you would like to contact me here are a few ways to do so</p>
+     
+          <a
+            href="https://github.com/AdamKuemmel"
+            target="no_blank"
+          >
+            <img
+       
+              src="img/github.png"
+              alt="Github Link"
+              class="contactLogo"
+            >
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/adam-kuemmel-74a3421b6/"
+            target="no_blank"
+       class="logo2"
+          >
+            <img
+              src='./img/linkedin.png'
+
+              alt="LinkedIn"
+                      class="contactLogo"
+            />
+          </a>
+    </article>
+
+<form
+class="formCon"
+          id="bhide"
+          name="emailForm"
+          action="https://formspree.io/f/xgerbeza"
+          method="POST"
+          encType="multipart/form-data"
+        >
+          <input
+class="contactBox"
+            type="text"
+            name="name"
+            placeholder="Your name"
+          />
+          <input
+class="contactBox"
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+          />
+          <textarea
+ class="textBox"
+            name="message"
+            placeholder="Enter your message here"
+          ></textarea>
+
+   <input type="submit"  class="subBox" value="Send" >
+        </form> 
+      
+
+      </div>
+    </div>
+    <footer>
+     <footer class="center footer">
+      AK designs &copy; 2021 | All rights Reserved
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

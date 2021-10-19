@@ -1,0 +1,222 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* STYLES TO CREAT HEADER */
+header {
+  position: fixed;
+  top: 2%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 20%;
+  z-index: 1000;
+  transition: 0.6s;
+}
+header h1 img {
+  padding-right: 5%;
+  position: fixed;
+  left: 1%;
+  top: 1%;
+  height: 16vh;
+  transition: 0.6s;
+}
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #edf1cf;
+  letter-spacing: 2px;
+}
+
+ul li a:hover {
+  background: #939090;
+  opacity: 0.2;
+  transition: 0.6s;
+}
+.sticky {
+  padding: 0px 0px;
+  background: #939090;
+  opacity: 0.7;
+  transition: 0.6s;
+}
+.navTitle {
+  color: #edf1cf;
+  padding-right: 3%;
+  position: fixed;
+  left: 0;
+  height: 25vh;
+}
+.hiddenAK {
+  display: none;
+  visibility: hidden;
+}
+
+/* STYLES TO CREAT PARALLAX */
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+}
+h2 {
+  font-size: 60px;
+  text-align: left;
+  padding: 8px 24px;
+  border-radius: 16px;
+}
+div:nth-child(2) {
+  background-image: url(img/div3.jpg);
+  background-size: cover;
+  background: #0c0c0c;
+}
+div:nth-child(3) {
+  background: #939090;
+}
+div:nth-child(4) {
+  height: 400px;
+  background-image: url(img/div3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+div:nth-child(5) {
+  background: #0c0c0c;
+}
+
+/* footer */
+.footer {
+  background: #333;
+  color: #fff;
+  height: 40px;
+}
+.center {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.akImg {
+  height: 20vh;
+  position: fixed;
+  left: 1%;
+  top: 0;
+}
+.hideTitle {
+  display: none;
+  visibility: hidden;
+}
+.firstDivContainer {
+  display: flex;
+  flex-direction: column;
+}
+.firstDivWords {
+  background: #0c0c0c;
+  color: #edf1cf;
+  font-size: 4vh;
+  font-weight: 70000;
+}
+#secondDivWords {
+  background: #0c0c0c;
+  color: #939090;
+  font-size: 3vh;
+  font-weight: 100;
+}
+.hands {
+  margin-top: 20vh;
+  height: 60%;
+}
+
+/* styling for about me section */
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#aboutH1 {
+  font-size: 6vh;
+  background: #939090;
+  align-items: flex-start;
+}
+.aboutWords {
+  font-size: 17px;
+  background: #939090;
+  text-align: left;
+  width: 75%;
+  font-weight: 100;
+  text-shadow: #fff 1px;
+}
+.aboutImg {
+  height: 60%;
+  padding-right: 4%;
+}
+
+/* styling for the contact page */
+.contactLogo {
+  height: 100px;
+}
+.logo2 {
+  height: 100px;
+  margin-right: 15%;
+  float: right;
+}
+.contactTitle {
+  font-size: 8vh;
+  font-weight: 200;
+  color: #edf1cf;
+  align-items: flex-start;
+}
+.contactWords {
+  margin-top: 10%;
+  font-size: 20px;
+  margin-right: 5%;
+  color: #edf1cf;
+}
+
+/* email form styles */
+.formCon {
+  display: flex;
+  flex-direction: column;
+  margin-left: ;
+  margin-right: 3%;
+  width: 35%;
+}
+.contactBox {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #edf1cf;
+  border-left: 1px solid #edf1cf;
+  margin-top: 8%;
+  font-size: 20px;
+  color: #edf1cf;
+}
+.textBox {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #edf1cf;
+  border-left: 1px solid #edf1cf;
+
+  margin-top: 10%;
+  font-size: 20px;
+}
+.subBox {
+  border: 0;
+  background-color: transparent;
+  border: 1px solid #edf1cf;
+  margin-top: 3%;
+  color: #edf1cf;
+  font-size: 20px;
+}
