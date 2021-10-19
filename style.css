@@ -80,9 +80,9 @@ h2 {
   border-radius: 16px;
 }
 div:nth-child(2) {
-  background-image: url(img/div3.jpg);
+  background-image: url(img/burnPaper.jpg);
   background-size: cover;
-  background: #0c0c0c;
+  /* background: #0c0c0c; */
 }
 div:nth-child(3) {
   background: #939090;
@@ -94,6 +94,16 @@ div:nth-child(4) {
   background-attachment: fixed;
 }
 div:nth-child(5) {
+  background: #0c0c0c;
+}
+div:nth-child(6) {
+  height: 400px;
+  background-image: url(img/shortGif.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #0c0c0c;
+}
+div:nth-child(7) {
   background: #0c0c0c;
 }
 
@@ -126,7 +136,8 @@ div:nth-child(5) {
   background: #0c0c0c;
   color: #edf1cf;
   font-size: 4vh;
-  font-weight: 70000;
+  font-weight: 700;
+  margin-top: 35%;
 }
 #secondDivWords {
   background: #0c0c0c;
@@ -138,6 +149,35 @@ div:nth-child(5) {
   margin-top: 20vh;
   height: 60%;
 }
+/* styling for work section */
+#workBubble {
+  height: 200px;
+}
+.workContainer {
+  display: flex;
+  flex-direction: column;
+}
+.bubbleContainer {
+  display: flex;
+  flex-direction: row;
+}
+.bubble {
+  text-align: center;
+
+  width: 34%;
+}
+.workWords {
+  width: 90%;
+  margin-left: 4%;
+}
+.workTitle {
+  font-size: 25px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.recentWork {
+  margin-bottom: 8%;
+}
 
 /* styling for about me section */
 .aboutContainer {
@@ -148,16 +188,18 @@ div:nth-child(5) {
 
 #aboutH1 {
   font-size: 6vh;
-  background: #939090;
+  background: #0c0c0c;
   align-items: flex-start;
+  color: #edf1cf;
 }
 .aboutWords {
   font-size: 17px;
-  background: #939090;
+  background: #0c0c0c;
   text-align: left;
   width: 75%;
   font-weight: 100;
   text-shadow: #fff 1px;
+  color: #edf1cf;
 }
 .aboutImg {
   height: 60%;
@@ -190,7 +232,7 @@ div:nth-child(5) {
 .formCon {
   display: flex;
   flex-direction: column;
-  margin-left: ;
+
   margin-right: 3%;
   width: 35%;
 }

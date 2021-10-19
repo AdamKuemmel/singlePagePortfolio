@@ -1,8 +1,9 @@
-const paralax = document.getElementById("parallax");
+const parallax = document.getElementById("parallax");
 
 window.addEventListener("scroll", function () {
   let offset = window.pageYOffset;
-  paralax.style.backgroundPositionY = offset * 0.7 + "px";
+  parallax.style.backgroundPositionY = offset * 0.6 + "px";
+  console.log(parallax);
 });
 
 window.addEventListener("scroll", function () {
