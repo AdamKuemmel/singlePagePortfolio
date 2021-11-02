@@ -80,16 +80,19 @@ h2 {
   border-radius: 16px;
 }
 div:nth-child(2) {
-  background-image: url(img/burnPaper.jpg);
-  background-size: cover;
-  /* background: #0c0c0c; */
+  background-image: url(img/shortGif.gif);
+  background-size: 85vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #0c0c0c;
+  background-position: center;
 }
 div:nth-child(3) {
   background: #939090;
 }
 div:nth-child(4) {
   height: 400px;
-  background-image: url(img/div3.jpg);
+  background-image: url(img/burnPaper.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -98,7 +101,7 @@ div:nth-child(5) {
 }
 div:nth-child(6) {
   height: 400px;
-  background-image: url(img/shortGif.gif);
+  background-image: url(img/div3.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-color: #0c0c0c;
